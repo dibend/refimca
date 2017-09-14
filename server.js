@@ -195,8 +195,7 @@ app.post('/up', function(request, response) {
 });
 
 app.get('*', function(request, response) {
-    response.status(404);
-    response.sendFile(path.join(__dirname+'/public/404.html'));
+    response.sendFile(path.join(__dirname+'/public/index.html'));
 });
 
 http.createServer(function (request, response) {
