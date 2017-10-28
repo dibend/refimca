@@ -1,6 +1,6 @@
 node_modules
 letsencrypt
 requests.csv
-fundrite.log
+refimca.log
 config.json
 *.swp
